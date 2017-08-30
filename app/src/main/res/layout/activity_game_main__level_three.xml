@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:text="MY SCORE: 0"
+        android:id="@+id/testText"
+        />
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:secondaryProgress="100"
+        android:progressDrawable="@drawable/myprogressbar"
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal">
+    </ProgressBar>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:gravity="center_horizontal"
+            >
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:id="@+id/b11"
+                android:onClick="onClick"
+                android:background="#0000ff"
+                android:visibility="invisible"
+                />
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="#0000ff"
+                android:onClick="onClick"
+                android:visibility="invisible"
+                android:id="@+id/b12"
+                />
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="#0000ff"
+                android:onClick="onClick"
+                android:visibility="invisible"
+                android:id="@+id/b13"
+                />
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="#0000ff"
+                android:onClick="onClick"
+                android:visibility="invisible"
+                android:id="@+id/b14"
+                />
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="#0000ff"
+                android:onClick="onClick"
+                android:visibility="invisible"
+                android:id="@+id/b15"
+                />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            >
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:id="@+id/b21"
+                android:onClick="onClick"
+                android:background="#0000ff"
+                android:visibility="invisible"
+                />
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="#0000ff"
+                android:onClick="onClick"
+                android:visibility="invisible"
+                android:id="@+id/b22"
+                />
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="#0000ff"
+                android:onClick="onClick"
+                android:visibility="invisible"
+                android:id="@+id/b23"
+                />
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="#0000ff"
+                android:onClick="onClick"
+                android:visibility="invisible"
+                android:id="@+id/b24"
+                />
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="#0000ff"
+                android:onClick="onClick"
+                android:visibility="invisible"
+                android:id="@+id/b25"
+                />
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            >
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:id="@+id/b31"
+                android:onClick="onClick"
+                android:background="#0000ff"
+                android:visibility="invisible"
+                />
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="#0000ff"
+                android:onClick="onClick"
+                android:visibility="invisible"
+                android:id="@+id/b32"
+                />
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="#0000ff"
+                android:onClick="onClick"
+                android:visibility="invisible"
+                android:id="@+id/b33"
+                />
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="#0000ff"
+                android:onClick="onClick"
+                android:visibility="invisible"
+                android:id="@+id/b34"
+                />
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="#0000ff"
+                android:onClick="onClick"
+                android:visibility="invisible"
+                android:id="@+id/b35"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            >
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:id="@+id/b41"
+                android:onClick="onClick"
+                android:background="#0000ff"
+                android:visibility="invisible"
+                />
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="#0000ff"
+                android:onClick="onClick"
+                android:visibility="invisible"
+                android:id="@+id/b42"
+                />
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="#0000ff"
+                android:onClick="onClick"
+                android:visibility="invisible"
+                android:id="@+id/b43"
+                />
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="#0000ff"
+                android:onClick="onClick"
+                android:visibility="invisible"
+                android:id="@+id/b44"
+                />
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="#0000ff"
+                android:onClick="onClick"
+                android:visibility="invisible"
+                android:id="@+id/b45"
+                />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            >
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:id="@+id/b51"
+                android:onClick="onClick"
+                android:background="#0000ff"
+                android:visibility="invisible"
+                />
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="#0000ff"
+                android:onClick="onClick"
+                android:visibility="invisible"
+                android:id="@+id/b52"
+                />
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="#0000ff"
+                android:onClick="onClick"
+                android:visibility="invisible"
+                android:id="@+id/b53"
+                />
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="#0000ff"
+                android:onClick="onClick"
+                android:visibility="invisible"
+                android:id="@+id/b54"
+                />
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="#0000ff"
+                android:onClick="onClick"
+                android:visibility="invisible"
+                android:id="@+id/b55"
+                />
+
+        </TableRow>
+
+
+
+
+
+    </TableLayout>
+    />
+</LinearLayout>
